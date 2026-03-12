@@ -25,6 +25,16 @@ A super simple FastAPI application that allows students to view and sign up for 
    - API documentation: http://localhost:8000/docs
    - Alternative documentation: http://localhost:8000/redoc
 
+## Running Backend Tests
+
+From the repository root, run:
+
+```
+pytest -q
+```
+
+The backend test suite lives in the top-level `tests/` directory and follows the Arrange-Act-Assert (AAA) pattern for readability.
+
 ## API Endpoints
 
 | Method | Endpoint                                                          | Description                                                         |
